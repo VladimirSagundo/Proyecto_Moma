@@ -1,3 +1,5 @@
+// Aseguradoras Jesus
+
 import React, { useState } from "react";
 import { FaPlus , FaTrash, FaEdit} from "react-icons/fa";
 import ModalAgregar_cliente from "./agregar_cliente";
