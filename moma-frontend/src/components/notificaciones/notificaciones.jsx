@@ -1,3 +1,5 @@
+// Notificaciones Jesús
+
 import React from 'react';
 import './estilo_notificaciones.css';
 import { FaTimes, FaExclamationCircle, FaClock, FaCheckCircle } from "react-icons/fa";
