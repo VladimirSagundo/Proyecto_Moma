@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './estilo.css';
-
+//Accesos Vladimir
 function Configuracion() {
     const [historial, setHistorial] = useState([]);
     const [pagina, setPagina] = useState(1);
