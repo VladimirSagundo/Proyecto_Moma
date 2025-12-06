@@ -1,0 +1,189 @@
+/*ASEGURADORAS*/
+
+.PanelAseguradoras{
+
+  width: 75%;
+  height: 82%;
+  position: absolute;
+  left: 430px;
+  bottom: 15px;
+  
+}
+
+.PanelAseguradoras .btn-cliente{
+  position: relative;
+  top: 20px;
+  width: 208px;
+  height: 46px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #073F77;
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+  cursor: pointer;
+}
+
+.rectangulo-tabla-aseguradoras{
+  width: 82%;
+  height: 81%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  position: relative;
+  left: 259px;
+}
+
+.tabla-aseguradoras {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.tabla-aseguradoras th {
+  color: #073F77;
+  border-bottom: 2px solid #073F77; 
+  padding: 4px 18px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.tabla-aseguradoras td {
+  border-bottom: 1px solid #ccc; 
+  text-align: center;
+  font-size: 14px;
+}
+
+
+.aseguradoras-panel{
+  width: 238px;
+  height: 650px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  position: relative;
+  bottom: 628px;
+}
+
+.PanelAseguradoras .aseguradoras-panel button {
+  position: relative;
+  top: 70px;
+  width: 190px;
+  height: 46px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  margin: 0px 26px;
+  cursor: pointer;
+  text-align: left;
+  padding: 0px 40px; 
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.PanelAseguradoras .aseguradoras-panel button:hover {
+   background-color: #e8f0fe;
+}
+
+.PanelAseguradoras .aseguradoras-panel button.activo {
+  background-color: #073F77;
+  color: white;
+  border-radius: 10px;
+}
+
+.PanelAseguradoras .aseguradoras-panel button.activo:hover {
+  background-color: #073F77;
+}
+
+.filtro-clientes {
+  position: absolute;
+  top: 60px;
+  left: 260px;
+  width: 400px;
+  height: 41px;
+  border-radius: 10px;
+  margin: 0px;
+  border: none;
+  background-color: #DBDBDB;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 16px;
+  color: black;
+  padding: 15px;
+}
+
+
+.cont-botones-arriba .datos{
+  position: absolute;
+  top: 55px;
+  left: 905px;
+  width: 208px;
+  height: 46px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #596F85;
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+  cursor: pointer;
+}
+.cont-botones-arriba .borrar{
+  position: absolute;
+  top: 55px;
+  left: 1288px;
+  width: 150px;
+  height: 46px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #596F85;
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+  cursor: pointer;
+}
+.cont-botones-arriba .editar{
+  position: absolute;
+  top: 55px;
+  left: 1125px;
+  width: 150px;
+  height: 46px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #596F85;
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+  cursor: pointer;
+}
+
+.paginacion-fija {
+    position: fixed;         
+    bottom: 11px;            
+    left: 1200px;               
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    background-color: white;  
+    padding: 5px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    z-index: 1000;            
+}
+
+.paginacion-fija button {
+    padding: 4px 12px;
+    margin: 0 2px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.paginacion-fija button.activo {
+    background-color: #073F77;
+    color: white;
+}
+
+

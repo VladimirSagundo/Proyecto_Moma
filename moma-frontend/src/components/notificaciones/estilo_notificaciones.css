@@ -1,0 +1,94 @@
+.panel-notificaciones {
+  position: fixed;
+  top: 0;
+  right: -350px; /* Oculto por defecto */
+  width: 350px;
+  height: 100vh;
+  background: #ffffff;
+  box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Century Gothic", sans-serif;
+  z-index: 1000;
+  transition: right 0.3s ease-in-out; /* La magia de la animación */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Clase que activa el panel */
+.panel-notificaciones.open {
+  right: 0;
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+  background-color: #f8f9fa;
+}
+
+.panel-header h3 {
+  margin: 0;
+  color: #333;
+}
+
+.btn-cerrar-icon {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #666;
+}
+
+.contenido-scroll {
+  padding: 20px;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+/* Estilos de Secciones */
+.seccion-prioridad {
+  margin-bottom: 25px;
+}
+
+.titulo-seccion {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid;
+}
+
+/* Colores por prioridad */
+.seccion-prioridad.alta .titulo-seccion { color: #d9534f; border-color: #d9534f; }
+.seccion-prioridad.media .titulo-seccion { color: #f0ad4e; border-color: #f0ad4e; }
+.seccion-prioridad.baja .titulo-seccion { color: #5bc0de; border-color: #5bc0de; }
+
+/* Estilos de las tarjetas/items de actividad */
+.item-actividad {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+  border-left: 4px solid #ccc;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.seccion-prioridad.alta .item-actividad { border-left-color: #d9534f; }
+.seccion-prioridad.media .item-actividad { border-left-color: #f0ad4e; }
+.seccion-prioridad.baja .item-actividad { border-left-color: #5bc0de; }
+
+.item-actividad small {
+  display: block;
+  color: #888;
+  margin-top: 4px;
+  font-size: 0.8rem;
+}
+
+.vacio {
+  font-style: italic;
+  color: #aaa;
+  font-size: 0.9rem;
+}

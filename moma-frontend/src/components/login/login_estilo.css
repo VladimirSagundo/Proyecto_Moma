@@ -1,0 +1,95 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+
+.panel {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  height: 700px;
+  width: 550px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.panel img{
+  width: 260px;
+  height: 205px;
+  position: relative;
+  bottom: 20px;
+}
+
+.panel .email{
+  width: 350px;
+  height: 41px;
+  border-radius: 10px;
+  margin: 0px;
+  border: none;
+  background-color: #DBDBDB;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 16px;
+  color: black;
+  padding: 15px;
+  position: relative;
+  top: 50px;
+
+}
+
+.panel .password{
+  width: 350px;
+  height: 41px;
+  border-radius: 10px;
+  margin: 0px;
+  border: none;
+  background-color: #DBDBDB;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 16px;
+  color: black;
+  padding: 15px;
+  position: relative;
+  top: 70px;
+
+}
+
+.panel .entrar{
+  position: relative;
+  top: 110px;
+  width: 208px;
+  height: 46px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #073F77;
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+  cursor: pointer;
+}
+
+.panel .registrarse{
+  position: relative;
+  top: 120px;
+  width: 316px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
+  color: #073F77;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 60px; 
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+}
+
+
+

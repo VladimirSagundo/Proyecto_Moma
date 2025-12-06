@@ -1,0 +1,135 @@
+body{
+    background-color: #F3F3F3;
+    font-family: "Century Gothic", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.usuario h2 {
+    position: absolute;
+    top: 40px;
+    left: 430px;
+}
+
+.usuario p{
+    position: absolute;
+    top:80px;
+    left: 430px;
+    color: #073F77;
+}
+
+.dividir-usuario{
+  border: none;
+  height: 2px;
+  background-color: #073F77;
+  width: 75%;
+  position: relative;
+  top: 120px;
+  left: 430px;
+}
+
+
+.PanelOpciones button {
+  position: relative;
+  top: 220px;
+  width: 316px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
+  color: rgb(0, 0, 0);
+  margin: 0px 30px;
+  cursor: pointer;
+  text-align: left;
+  padding: 10px 60px; 
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.PanelOpciones button.activo {
+  background-color: #073F77;
+  color: white;
+  border-radius: 10px;
+}
+
+.PanelOpciones button.activo:hover {
+  background-color: #073F77;
+}
+
+.PanelOpciones button:hover{
+  background-color: #e8f0fe;
+}
+
+.PanelOpciones .menu {
+position: relative;
+top: 195px;
+left: 60px;
+font-weight: bold;
+font-size: 18px;
+}
+
+.PanelOpciones .otros {
+position: relative;
+top: 200px;
+left: 60px;
+font-weight: bold;
+font-size: 18px;
+margin-top: 50px;
+}
+
+.PanelAct{
+
+  width: 75%;
+  height: 82%;
+  position: absolute;
+  left: 430px;
+  bottom: 15px;
+  
+}
+
+.PanelAct button{
+  position: relative;
+  top: 20px;
+  width: 208px;
+  height: 46px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #073F77;
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+  cursor: pointer;
+}
+
+
+
+.perfil {
+  position: absolute;
+  right: 50px;
+  background-color: #bbc8d4;
+  height: 50px;
+  width: 50px;
+  top: 40px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.notificaciones {
+  position: absolute;
+  right: 130px;
+  background-color: #ffffff;
+  height: 40px;
+  width: 40px;
+  top: 45px;
+  border-radius: 30px;
+  border-color: #686868;
+  border-style:double;
+  cursor: pointer;
+}
+
+

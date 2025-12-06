@@ -1,0 +1,110 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  background: #f6f6f6;
+  border-radius: 15px;
+  padding: 25px;
+  width: 750px;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+  font-family: "Century Gothic", sans-serif;
+}
+
+/* títulos de sección */
+.section-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 15px;
+  color: #1f2937;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 4px;
+}
+
+.grid-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.grid-form input,
+.grid-form select {
+  padding: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #ececec;
+  transition: background 0.2s, border 0.2s;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.grid-form input:focus,
+.grid-form select:focus {
+  outline: none;
+  border-color: #1e53b6;
+  background: #fff;
+}
+
+/* Filas especiales para fechas */
+.fecha-row {
+  grid-column: span 2;
+}
+
+.fecha-label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #374151;
+}
+
+.fecha-selects {
+  display: flex;
+  gap: 8px;
+}
+
+.fecha-selects select {
+  flex: 1;
+}
+
+/* Botones inferiores */
+.botones-modal {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.btn-cancelar,
+.btn-agregar {
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.btn-cancelar {
+  background: #cbd5e1;
+}
+
+.btn-agregar {
+  background: #10b981;
+  color: white;
+}
+
+.btn-cancelar:hover {
+  background: #94a3b8;
+}
+
+.btn-agregar:hover {
+  background: #059669;
+}

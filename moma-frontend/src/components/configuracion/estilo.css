@@ -1,0 +1,83 @@
+.panelConfiguracion{
+  width: 75%;
+  height: 82%;
+  position: absolute;
+  left: 430px;
+  bottom: 15px;
+  
+}
+
+.panelAccesos{
+  width: 100%;
+  height: 420px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  top: 300px;
+  border-radius: 15px;
+}
+
+.h {
+  position: relative;
+  top: 290px;
+}
+
+.tabla_historial_accesos {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 5px;
+}
+
+
+.tabla-contenedor {
+    max-height: 400px;   
+    overflow-y: auto;
+    margin-bottom: 60px; 
+}
+
+.tabla_historial_accesos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.tabla_historial_accesos td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.tabla_historial_accesos th {
+  border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    color: #073F77;
+}
+
+
+.paginacion-fija {
+    position: fixed;         
+    bottom: 20px;            
+    left: 1100px;               
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    background-color: white;  
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    z-index: 1000;            
+}
+
+.paginacion-fija button {
+    padding: 6px 12px;
+    margin: 0 3px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.paginacion-fija button.activo {
+    background-color: #073F77;
+    color: white;
+}
