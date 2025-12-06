@@ -4,7 +4,7 @@ import PanelAgregarAct from './agregar_actividad';
 import ModalEditar_actividad from './ModalEditar_Actividad'; 
 import './estilo_actividades.css';
 import Swal from 'sweetalert2';
-
+//Actividades Vladimir
 function Actividades() {
   const [datos, setDatos] = useState([]);
   const [cargando, setCargando] = useState(true);
